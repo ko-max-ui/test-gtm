@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Тест GTM</title>
+    <!-- Сюди вставиш першу частину коду Google Tag Manager -->
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+        nav a { margin-right: 15px; font-weight: bold; }
+        input, button { display: block; margin-bottom: 10px; padding: 8px; width: 100%; max-width: 300px; }
+    </style>
+</head>
+<body>
+    <!-- Сюди вставиш другу частину коду Google Tag Manager (noscript) -->
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="services.html">Послуги</a>
+        <a href="contacts.html">Контакти</a>
+    </nav>
+    <hr>
+    <h1>Контакти</h1>
+    <p>Телефон: <a href="tel:+380501234567">+38 (050) 123-45-67</a></p>
+    <p>Email: <a href="mailto:test@example.com">test@example.com</a></p>
+    
+    <h3>Форма зворотного зв'язку</h3>
+    <form id="contact-form" onsubmit="event.preventDefault(); alert('Форму відправлено!');">
+        <input type="text" name="name" placeholder="Ваше ім'я" required>
+        <input type="email" name="email" placeholder="Ваш Email" required>
+        <button type="submit">Відправити заявку</button>
+    </form>
+</body>
+</html>
